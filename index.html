@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ben Izrailov Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <script src="https://kit.fontawesome.com/5626869890.js" crossorigin="anonymous"></script>
+
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Ben Izrailov</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Web Developer</p>
+            <img src="img/benprofile.png" alt="a picture of me smiling" class="intro__img">
+        </section>
+
+         <!-- My services -->
+         <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">My Experience</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Front-End Development</h3>
+                    <p>
+                         I enjoy constructing elegant and functional web pages that exceed 
+                         the expectations of end users. I enjoy growing my skills in HTML, 
+                         CSS, Javascript, and various frameworks such as React and Angular 
+                         to build API based projects. 
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Functionality + Back-End Development</h3>
+                    <p>
+                        I have experience building REST controllers and databases to power 
+                        and provide function to an application. In the past I have utilized 
+                        Java and Javascript within frameworks such as React and Springboot.  
+                    </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Education</h3>
+                    <p>
+                        A graduate from Hunter College, I obtained my Bachelor of the Arts  
+                        degree in Computer Science in the Fall of 2021. It was here I learned
+                        fundamentals in Object-Oriented Programming, Web Developement, and 
+                        algorithms.
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">
+                Web Developer based in New York City
+            </p>
+            
+            <div class="about-me__body">
+                <p>A recent Computer Science graduate eager to create, learn, and growing
+                    within the field of web development. I am motivated by contributing
+                    to technology that has real world implications. I have a passion for creating
+                    creative and intuitive applications that capture the eye!
+                </p>
+                <p>
+                    In my spare time I enjoy music production, snowboarding, stand-up comedy,
+                    and getting creative in any way possible! For inspiration I love exploring
+                    New York City's vast playground of museums, parks, and restuarants.
+                </p>
+            </div>
+            <img src="img/benbike.jpg" alt="Ben on a bike" class="about-me__img">
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/login-page.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/authentication-page.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/different-playlists.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src="img/upvote-playlist-general.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/spotify-playlists.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="img/working-out-playlist.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:izrailov.benjamin@gmail.com" class="footer__link">izrailov.benjamin@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/BenIzrailov">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/benjamin-izrailov-9478">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
